@@ -1,0 +1,44 @@
+.gaming-information {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+li::marker { content:"";  color:#FFE584; }
+
+.top-players-section { 
+    overflow: auto; 
+    height: 650px;
+}
+.top-players-section ::-webkit-scrollbar { background-color: #606060; }
+.top-players-section ::-webkit-scrollbar-thumb {
+    background-color: #FAC704;
+    border-radius: 20px;
+}
+
+.player-info {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    gap: 3px;
+}
+
+/* ------------------------ */
+/* player left side */
+.player-left-side {
+    color: #F8F8F8;
+    display: flex;
+}
+.player-left-side img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+/* ------------------------ */
+/* player right side */
+
+.player-right-side {
+    color: #FAC704;
+}
